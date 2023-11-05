@@ -48,9 +48,9 @@
           walletconnect: {
             package: x.a,
             options: {
-              networkUrl: "https://bsc-testnet.publicnode.com",
+              networkUrl: "https://data-seed-prebsc-1-s1.binance.org:8545",
               rpc: {
-                97: "https://bsc-testnet.publicnode.com",
+                97: "https://data-seed-prebsc-1-s1.binance.org:8545",
               },
               chainId: 97,
             },
@@ -318,7 +318,7 @@
         z = (n(327), n(328)),
         W = n(168),
         I = new W.a.providers.JsonRpcProvider(
-          "https://bsc-testnet.publicnode.com"
+          "https://data-seed-prebsc-1-s1.binance.org:8545"
         ),
         _ = new W.a.VoidSigner("", I);
 
@@ -1224,7 +1224,7 @@
                                     fontSize: "16px",
                                     color: "#ffffff",
                                     fontFamily: "Chakra Petch",
-                                    children: "18",
+                                    children: "6",
                                   }),
                                 ],
                               }),
@@ -1302,7 +1302,7 @@
                                     fontSize: "16px",
                                     color: "#ffffff",
                                     fontFamily: "Chakra Petch",
-                                    children: ["5 TBNB", " "],
+                                    children: ["1 TBNB", " "],
                                   }),
                                 ],
                               }),
@@ -1634,7 +1634,7 @@
         ce = new se.a(
           se.a.givenProvider
             ? se.a.givenProvider
-            : "https://bsc-testnet.publicnode.com"
+            : "https://data-seed-prebsc-1-s1.binance.org:8545"
         );
       var le = function () {
           var e = Object(a.useState)(!1),
